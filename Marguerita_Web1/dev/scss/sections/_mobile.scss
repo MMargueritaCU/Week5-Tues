@@ -1,0 +1,33 @@
+/* =============
+    Mobile
+============= */
+#mobile{
+  background-color: #F5F5F5;
+  text-align: center;
+  h1{
+    font-size: rem-calc(30);
+  }
+
+  p{
+    font-size: rem-calc(15);
+    color: $greyText;
+    font-weight: 700;
+  }
+
+  img{
+    margin: 24px 0;
+    width: 100%;
+  }
+
+  article{
+    margin-top: 16px;
+    text-align: left;
+    h2{
+      color: $darkBlue;
+      font-size: rem-calc(20);
+    }
+    p{
+      font-size: rem-calc(14);
+    }
+  }
+}

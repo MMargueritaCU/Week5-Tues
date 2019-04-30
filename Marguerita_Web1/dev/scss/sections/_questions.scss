@@ -1,0 +1,19 @@
+/* =============
+    Questions
+============= */
+#questions{
+    background-color: $blue;
+    color: $white;
+    h1{
+      font-size: rem-calc(17);
+      font-weight: 700;
+    }
+    p{
+      font-size: rem-calc(12);
+      font-style: italic;
+    }
+    a{
+      font-size: rem-calc(13);
+      font-weight: 700;
+    }
+}

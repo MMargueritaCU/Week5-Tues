@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="43px" viewBox="0 0 51 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Piggy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.1503 0.9281 1.1503 0.9281 1.1503 8 0.1503 8"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-185.000000, -892.000000)">
+            <g id="Ingredients" transform="translate(186.000000, 893.000000)">
+                <g id="Piggy">
+                    <path d="M4.3334,16.8342 C4.3334,16.8342 5.6334,9.9012 12.7834,5.7842 C12.7834,5.7842 11.7004,2.4252 10.1834,1.4512 C10.1834,1.4512 8.5584,0.0422 11.3754,0.0422 C11.3754,0.0422 16.4664,-0.6078 19.2834,3.1842 C19.2834,3.1842 41.9254,-0.1738 43.9834,19.3262 C43.9834,19.3262 44.8504,28.8592 32.6084,35.1432 C32.6084,35.1432 13.0004,40.4512 5.9584,26.0422 L0.0004,26.0422 L0.0004,16.9422 L4.3334,16.8342 Z" id="Stroke-1" stroke="#A5CE44" stroke-width="2"></path>
+                    <path d="M43.9838,19.3259 C43.9838,19.3259 48.2088,19.6509 48.3168,14.9929" id="Stroke-3" stroke="#A5CE44" stroke-width="2"></path>
+                    <path d="M32.6088,35.1427 L32.6088,41.7507" id="Stroke-5" stroke="#A5CE44" stroke-width="2"></path>
+                    <path d="M15.5,35.1427 L15.5,41.7507" id="Stroke-5-Copy" stroke="#A5CE44" stroke-width="2"></path>
+                    <g id="Group-9" transform="translate(15.000000, 33.751300)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-8"></g>
+                    </g>
+                    <path d="M22.5336,7.9509 C22.5336,7.9509 30.1166,7.3009 33.4756,11.3089" id="Stroke-10" stroke="#A5CE44" stroke-width="2"></path>
+                    <path d="M13.7001,16.5016 C13.7001,17.5636 12.8391,18.4236 11.7781,18.4236 C10.7161,18.4236 9.8551,17.5636 9.8551,16.5016 C9.8551,15.4396 10.7161,14.5786 11.7781,14.5786 C12.8391,14.5786 13.7001,15.4396 13.7001,16.5016" id="Fill-12" fill="#A5CE44"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

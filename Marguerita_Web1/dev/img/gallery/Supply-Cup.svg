@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="51px" viewBox="0 0 40 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Supply Cup</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 50.299 39.209 50.299 39.209 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-582.000000, -1112.000000)">
+            <g id="Ingredients" transform="translate(186.000000, 893.000000)">
+                <g id="Supply-Cup" transform="translate(396.000000, 219.000000)">
+                    <path d="M25.5356,49.2991 L7.6436,49.2991 C5.0486,49.2991 2.9456,47.1951 2.9456,44.6011 L2.9456,22.0101 L30.2336,22.0101 L30.2336,44.6011 C30.2336,47.1951 28.1306,49.2991 25.5356,49.2991 Z" id="Stroke-1" stroke="#F6901E" stroke-width="2"></path>
+                    <path d="M30.2338,26.2522 C30.2338,26.2522 38.1208,25.2472 38.1878,32.2802 C38.1878,32.2802 39.0248,39.1792 30.2338,38.7762" id="Stroke-3" stroke="#F6901E" stroke-width="2"></path>
+                    <polyline id="Stroke-5" stroke="#F6901E" stroke-width="2" points="11.6157 22.01 6.1667 12.753 2.1207 15.674 5.4357 22.01"></polyline>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-8"></g>
+                    <polygon id="Stroke-7" stroke="#F6901E" stroke-width="2" mask="url(#mask-2)" points="13.393 22.01 21.983 22.01 21.983 1 13.393 1"></polygon>
+                    <path d="M21.9828,5.4983 L17.0848,5.4983" id="Stroke-9" stroke="#F6901E" stroke-width="2" mask="url(#mask-2)"></path>
+                    <path d="M21.9828,9.551 L18.9868,9.551" id="Stroke-10" stroke="#F6901E" stroke-width="2" mask="url(#mask-2)"></path>
+                    <path d="M21.9828,13.5979 L17.0848,13.5979" id="Stroke-11" stroke="#F6901E" stroke-width="2" mask="url(#mask-2)"></path>
+                    <path d="M21.9828,17.7444 L19.5338,17.7444" id="Stroke-12" stroke="#F6901E" stroke-width="2" mask="url(#mask-2)"></path>
+                    <polygon id="Stroke-13" stroke="#F6901E" stroke-width="2" mask="url(#mask-2)" points="23.6957 22.01 29.3007 12.753 31.7817 12.753 28.1977 22.01"></polygon>
+                    <path d="M30.2338,1.3655 C30.2338,1.3655 36.4488,2.8445 35.1538,9.5515 C35.1538,9.5515 34.5788,12.2305 31.7818,12.7535 L29.3008,12.7535 C29.3008,12.7535 26.2838,9.7285 29.5178,6.1655 C29.5178,6.1655 30.1458,5.6445 30.5538,4.7835 C31.0288,3.7815 30.8108,2.5945 30.0738,1.7655 C29.7718,1.4255 29.6118,1.1335 30.2338,1.3655 Z" id="Stroke-14" stroke="#F6901E" stroke-width="2" mask="url(#mask-2)"></path>
+                    <path d="M5.9345,12.179 L1.1785,9.199 C1.0945,9.145 0.9865,9.216 1.0015,9.315 L1.9095,15.337" id="Stroke-15" stroke="#F6901E" stroke-width="2" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

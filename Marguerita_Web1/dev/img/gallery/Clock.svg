@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="44px" viewBox="0 0 38 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Clock</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-584.000000, -893.000000)" stroke="#00A2D5" stroke-width="2">
+            <g id="Ingredients" transform="translate(186.000000, 893.000000)">
+                <g id="Clock" transform="translate(398.000000, 0.000000)">
+                    <path d="M16.0691,27.6006 L36.6111,27.6006 C36.6111,27.6006 37.2241,8.4376 16.0691,7.2886 L16.0691,27.6006 Z" id="Stroke-1"></path>
+                    <path d="M16.0691,7.2886 L16.0691,0.9996" id="Stroke-3"></path>
+                    <path d="M18.5144,1 L13.2544,1" id="Stroke-5"></path>
+                    <path d="M30.4656,12.75 L34.4226,8.479" id="Stroke-7"></path>
+                    <path d="M36.613,10.3164 L32.627,6.3304" id="Stroke-9"></path>
+                    <path d="M4.7615,16.5274 L9.4515,21.5344" id="Stroke-11"></path>
+                    <path d="M0.0036,28.0059 L6.8636,27.9779" id="Stroke-13"></path>
+                    <path d="M4.7615,39.1392 L9.7685,34.4492" id="Stroke-15"></path>
+                    <path d="M16.0554,43.8115 L16.0824,36.9515" id="Stroke-17"></path>
+                    <path d="M27.363,39.4561 L22.673,34.4491" id="Stroke-19"></path>
+                    <path d="M27.5212,16.6861 L22.5142,21.3761" id="Stroke-21"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
