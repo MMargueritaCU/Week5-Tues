@@ -12,8 +12,12 @@
       font-size: rem-calc(12);
       font-style: italic;
     }
-    a{
-      font-size: rem-calc(13);
-      font-weight: 700;
+    article{
+      text-align: center;
+      a{
+        font-size: rem-calc(13);
+        font-weight: 700;
+
+      }
     }
 }

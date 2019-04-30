@@ -501,6 +501,8 @@ footer {
   #questions p {
     font-size: 0.75rem;
     font-style: italic; }
-  #questions a {
-    font-size: 0.8125rem;
-    font-weight: 700; }
+  #questions article {
+    text-align: center; }
+    #questions article a {
+      font-size: 0.8125rem;
+      font-weight: 700; }
