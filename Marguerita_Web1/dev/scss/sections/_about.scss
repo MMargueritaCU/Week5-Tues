@@ -7,11 +7,14 @@
   padding: 31px 0 16px;
   h2{
     font-size: rem-calc(18);
+    line-height: 24px;
+    padding-bottom: 8px;
   }
   p{
     color: $greyText;
     font-size: rem-calc(14);
-    font-weight: 700;
+    font-weight: 600;
+    line-height: 26px;
   }
   span{
     color: $blue;
@@ -26,11 +29,18 @@
     p{
       text-align: justify;
       font-size: rem-calc(14);
-      font-weight: 700;
+      font-weight: 600;
       color: $greyText;
+      line-height: 26px;
     }
 }
 
 #about-last-quote{
     margin-bottom: 50px;
-}
+    h2{
+      span{
+        font-size: 11px;
+        color: $greyText;
+      }
+    }
+  }

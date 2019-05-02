@@ -325,12 +325,22 @@ ul {
   ul li {
     list-style: none; }
 
+a {
+  text-decoration: none;
+  transition: 0.25s;
+  display: inline-block; }
+
 .content-grid {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". content ."; }
   .content-grid .content-grid-item {
     grid-area: content; }
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 .section-content {
   padding: 56px 0 50px; }
@@ -364,8 +374,12 @@ body {
 /* ================================
         Header css
 ================================ */
-#header {
-  padding: 10px 0; }
+#header div {
+  background-color: #fff;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
 
 /* ================================
         Footer css
@@ -373,7 +387,28 @@ body {
 footer {
   color: #9C9D9E;
   font-size: 0.625rem;
-  font-weight: 700; }
+  font-weight: 700;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 43px; }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    footer ul li {
+      font-size: 10px; }
+      footer ul li p a:link, footer ul li p a:visited {
+        color: #01AAF7; }
+      footer ul li p a:hover, footer ul li p a:active {
+        color: #000; }
+  footer h2 {
+    font-size: 0.75rem;
+    padding-top: 7px;
+    font-family: Open Sans; }
+    footer h2 a:link, footer h2 a:visited {
+      color: #01AAF7; }
+    footer h2 a:hover, footer h2 a:active {
+      color: #000; }
 
 /* =============
     Hero
@@ -386,7 +421,28 @@ footer {
   color: #fff;
   text-align: center; }
   #hero h1 {
-    font-size: 1.5625rem; }
+    font-size: 1.5625rem;
+    line-height: 33px; }
+
+#order {
+  font-weight: 700; }
+  #order a:link, #order a:visited {
+    font-size: 0.875rem;
+    color: #fff;
+    background-color: #01AAF7;
+    padding: 8px; }
+  #order a:hover, #order a:active {
+    background-color: #fff;
+    color: #000; }
+
+#read {
+  font-weight: 700; }
+  #read a:link, #read a:visited {
+    font-size: 0.875rem;
+    padding: 8px;
+    color: #fff; }
+  #read a:hover, #read a:active {
+    color: #01AAF7; }
 
 /* =============
     Ingredients
@@ -395,15 +451,19 @@ footer {
   text-align: center; }
   #ingredients ul li h2 {
     padding: 18px 0 7px;
-    font-size: 1.375rem; }
+    font-size: 1.375rem;
+    line-height: 29px; }
   #ingredients ul li p {
     color: #9C9D9E;
     font-size: 0.875rem;
-    font-weight: 700; }
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 35px; }
 
 #ingredients h1 {
   text-align: center;
-  font-size: 1.875rem; }
+  font-size: 1.875rem;
+  padding-bottom: 75px; }
 
 /* =============
     Mobile
@@ -416,7 +476,8 @@ footer {
   #mobile p {
     font-size: 0.9375rem;
     color: #9C9D9E;
-    font-weight: 700; }
+    font-weight: 600;
+    line-height: 26px; }
   #mobile img {
     margin: 24px 0;
     width: 100%; }
@@ -425,9 +486,11 @@ footer {
     text-align: left; }
     #mobile article h2 {
       color: #353154;
-      font-size: 1.25rem; }
+      font-size: 1.25rem;
+      padding-bottom: 10px; }
     #mobile article p {
-      font-size: 0.875rem; }
+      font-size: 0.875rem;
+      line-height: 30px; }
 
 /* =============
     About
@@ -437,11 +500,14 @@ footer {
   background-color: #F5F5F5;
   padding: 31px 0 16px; }
   .about-quote h2 {
-    font-size: 1.125rem; }
+    font-size: 1.125rem;
+    line-height: 24px;
+    padding-bottom: 8px; }
   .about-quote p {
     color: #9C9D9E;
     font-size: 0.875rem;
-    font-weight: 700; }
+    font-weight: 600;
+    line-height: 26px; }
   .about-quote span {
     color: #01AAF7; }
 
@@ -452,11 +518,15 @@ footer {
   #about p {
     text-align: justify;
     font-size: 0.875rem;
-    font-weight: 700;
-    color: #9C9D9E; }
+    font-weight: 600;
+    color: #9C9D9E;
+    line-height: 26px; }
 
 #about-last-quote {
   margin-bottom: 50px; }
+  #about-last-quote h2 span {
+    font-size: 11px;
+    color: #9C9D9E; }
 
 /* =============
     Pricing
@@ -469,7 +539,8 @@ footer {
   #pricing p {
     color: #9C9D9E;
     font-size: 0.875rem;
-    font-weight: 700; }
+    font-weight: 600;
+    line-height: 26px; }
   #pricing section {
     background-color: #01AAF7;
     color: #fff;
@@ -479,15 +550,26 @@ footer {
       margin: 0;
       font-family: Open Sans;
       font-size: 2.0625rem;
-      font-weight: 700; }
+      font-weight: 600; }
   #pricing ul {
     background-color: #fff;
     padding: 10px; }
-    #pricing ul li p {
-      color: #000;
-      text-align: left;
-      font-size: 0.9375rem;
-      font-weight: 700; }
+    #pricing ul li {
+      display: flex;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left; }
+      #pricing ul li p {
+        color: #000;
+        text-align: left;
+        font-size: 0.9375rem;
+        font-weight: 600;
+        margin-right: 10px;
+        margin-left: 3px; }
+  #pricing a:link, #pricing a:visited {
+    color: #01AAF7; }
+  #pricing a:hover, #pricing a:active {
+    color: #fff; }
 
 /* =============
     Questions
@@ -497,12 +579,25 @@ footer {
   color: #fff; }
   #questions h1 {
     font-size: 1.0625rem;
-    font-weight: 700; }
+    font-weight: 600;
+    line-height: 23px; }
   #questions p {
     font-size: 0.75rem;
-    font-style: italic; }
+    font-style: italic;
+    line-height: 17px; }
+    #questions p a:link, #questions p a:visited {
+      color: #fff; }
+    #questions p a:hover, #questions p a:active {
+      color: #000; }
   #questions article {
-    text-align: center; }
+    text-align: center;
+    padding-top: 48px; }
     #questions article a {
       font-size: 0.8125rem;
-      font-weight: 700; }
+      font-weight: 600;
+      border: 1px solid #fff;
+      padding: 12px 40px; }
+    #questions article a:link, #questions article a:visited {
+      color: #fff; }
+    #questions article a:hover, #questions article a:active {
+      color: #000; }

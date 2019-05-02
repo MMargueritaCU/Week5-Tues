@@ -6,18 +6,36 @@
     color: $white;
     h1{
       font-size: rem-calc(17);
-      font-weight: 700;
+      font-weight: 600;
+      line-height: 23px;
     }
     p{
       font-size: rem-calc(12);
       font-style: italic;
+      line-height: 17px;
+
+      a:link, a:visited{
+        color: $white;
+      }
+      a:hover, a:active{
+        color: $black;
+      }
     }
     article{
       text-align: center;
+      padding-top: 48px;
       a{
         font-size: rem-calc(13);
-        font-weight: 700;
+        font-weight: 600;
+        border: 1px solid $white;
+        padding: 12px 40px;
+      }
+      a:link, a:visited{
+        color: $white;
+      }
 
+      a:hover, a:active{
+        color: $black;
       }
     }
 }

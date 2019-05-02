@@ -5,4 +5,39 @@ footer{
   color: $greyText;
   font-size: rem-calc(10);
   font-weight: 700;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 43px;
+
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    li{
+      font-size: 10px;
+      p{
+        a:link, a:visited{
+          color: $blue;
+        }
+
+        a:hover, a:active{
+          color: $black;
+        }
+      }
+    }
+  }
+
+  h2{
+    font-size: rem-calc(12);
+    padding-top: 7px;
+    font-family: Open Sans;
+
+    a:link, a:visited{
+      color: $blue;
+    }
+
+    a:hover, a:active{
+      color: $black;
+    }
+  }
 }

@@ -8,16 +8,20 @@
       h2{
         padding: 18px 0 7px;
         font-size: rem-calc(22);
+        line-height: 29px;
       }
       p{
         color: $greyText;
         font-size: rem-calc(14);
-        font-weight: 700;
+        font-weight: 600;
+        line-height: 24px;
+        padding-bottom: 35px;
       }
     }
   }
   h1{
     text-align: center;
     font-size: rem-calc(30);
+    padding-bottom: 75px;
   }
 }

@@ -10,5 +10,34 @@
   text-align: center;
   h1{
     font-size: rem-calc(25);
+    line-height: 33px;
+  }
+}
+
+#order{
+  font-weight: 700;
+  a:link, a:visited{
+    font-size: rem-calc(14);
+    color: $white;
+    background-color: $blue;
+    padding: 8px;
+  }
+
+  a:hover, a:active{
+    background-color: $white;
+    color: $black;
+  }
+}
+
+#read{
+  font-weight: 700;
+  a:link, a:visited{
+    font-size: rem-calc(14);
+    padding: 8px;
+    color: $white;
+  }
+
+  a:hover, a:active{
+    color: $blue;
   }
 }
